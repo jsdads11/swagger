@@ -1,3 +1,9 @@
+# The API is hosted at https://dog.ceo/api.
+# There is a GET operation with the path /breed/{breedName}/images.
+# This path has a part called breedName, and it is a required string.
+# A successful response will give us a JSON array where each item is an object con-taining message and status fields.
+# The message field is an array of strings that are URLs of dog images.
+
 openapi: 3.0.0
 info:
   title: Dog API
